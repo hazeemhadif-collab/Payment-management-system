@@ -271,29 +271,6 @@ class _ReservationDetailPageState
                 child: Column(
                   children: [
 
-                    Padding(
-                      padding: const EdgeInsets.all(20),
-                      child: SizedBox(
-                        width: double.infinity,
-                        height: 55,
-                        child: ElevatedButton.icon(
-                          icon: const Icon(Icons.print),
-                          label: const Text(
-                            "Generate Monthly Reservation Report",
-                          ),
-                          onPressed: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (_) =>
-                                const ReservationGeneratePage(),
-                              ),
-                            );
-                          },
-                        ),
-                      ),
-                    ),
-
                     Expanded(
                       child: ReservationData.reservations.isEmpty
                           ? const Center(

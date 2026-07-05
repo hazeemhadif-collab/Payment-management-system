@@ -162,7 +162,7 @@ class _ManagerCustomerFilterPageState
                             ),
 
                             DropdownMenuItem(
-                              value: "Water Villa",
+                              value: "Villa",
                               child: Text("Water Villa"),
                             ),
                           ],
